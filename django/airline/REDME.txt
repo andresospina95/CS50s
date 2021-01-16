@@ -1,0 +1,18 @@
+DJANGO NOTES
+
+python manage.py runserver | para iniciar el servidor con todas las aplicaciones
+
+python manage.py createsuperuser | para crear un usuario para ingesar a  la app 'admin'
+
+python manage.py shell | para ingresar al hell y ejecutar comandos dentro de los modelos (bases de datos)
+
+python manage.py startapp "appname" | para crear una nueva aplicación
+
+
+
+{
+python manage.py makemigrations | cada que se modifique models.py 
+
+python manage.py migrate | To apply changes to database
+}
+

@@ -4,6 +4,12 @@ python manage.py runserver | para iniciar el servidor con todas las aplicaciones
 
 python manage.py createsuperuser | para crear un usuario para ingesar a  la app 'admin'
 
+python manage.py shell 
+from django.contrib.auth.models import User 
+User.objects.filter(is_superuser=True)
+|para recuperar usuario
+
+python manage.py changepassword <username> | para cambiar password
 python manage.py shell | para ingresar al hell y ejecutar comandos dentro de los modelos (bases de datos)
 
 python manage.py startapp "appname" | para crear una nueva aplicación
